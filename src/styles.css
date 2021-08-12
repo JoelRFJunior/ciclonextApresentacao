@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+.bg-cinza-claro{
+    background-color: #F0F0F0;
+}
+
+.bg-verde-escuro{
+    background-color: #34878B;
+
+}
+
+.bg-laranja{
+    background-color: #E59347;
+    
+}
+
+a { cursor: pointer; }
+
+.pagination {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.opacity50 {
+    opacity: 0.9;
+}
+
+.opacity100:hover {
+    opacity: 1;
+}
+
+
+h1{
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+
+h2{
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+
+p{
+    font-family: Roboto, Segoe UI, sans-serif;
+}
