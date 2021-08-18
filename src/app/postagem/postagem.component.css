@@ -15,13 +15,7 @@ body {
     border-radius: 25px;
 }
 
-.max-width-height-numero{
-    /* max-width: 250px;  */
-     max-height: 500px;  
-    display: block;
-    width: 100%;
-    object-fit: scale-down;
-}
+
 
 .bg-color-editarDados{
     background-color: #414F72;
@@ -36,12 +30,6 @@ body {
     transition-duration: 1s;
 }
 
-.fotoPerfil{
-	object-fit: cover;
-	display: flex;
-	height: 100px;
-	width: 100px;
-}
 .fotoPubli{
 	object-fit: cover;
 	display: flex;
@@ -76,17 +64,49 @@ body {
     display: none;
 }
 
-.max-width-height-numero{
-	size: 600px;
-    display: flex;
-    width: 100%;
-	object-fit: cover;
-    
-}
+
 
 .img-front{
     max-height: 300px;  
     display: block;
     width: 100%;
     object-fit: scale-down;
+}
+
+.h8 {
+    font-size: 1.2rem;
+}
+
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#edit #popup {
+    display: none;
+}
+#edit:hover #popup {
+    display: block;
+    box-shadow: 2px 5px #888888;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;    
+    color: #6c757d;
+
+}
+
+#apagar #popup {
+    display: none;
+}
+#apagar:hover #popup {
+    display: block;
+    box-shadow: 2px 5px #888888;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    color: #6c757d;
 }

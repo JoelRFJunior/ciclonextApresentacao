@@ -15,6 +15,12 @@ export class PostagemDeleteComponent implements OnInit {
   postagem: Postagem = new Postagem()
   idPostagem: number
 
+  idUsuario = environment.idUsuario
+  nome = environment.nome
+  foto = environment.urlImagemPerfil
+  token = environment.token
+  categoria = environment.categoria
+
 
   constructor(
     private router: Router,
