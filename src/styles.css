@@ -45,7 +45,7 @@ p{
 
 
 #img-bg{
-    background-image: url('../src/assets/img/fundo.svg');
+    background-image: url('../../angularCiclonext/src/assets/img/fundo.svg');
     
     min-height: 500px;
 
@@ -58,7 +58,7 @@ p{
     /* animation-direction: normal; */
 } 
 #img-bg-invertido{
-    background-image: url('../src/assets/img/fundo.svg');
+    background-image: url('../../angularCiclonext/src/assets/img/fundo.svg');
     
     min-height: 500px;
 
@@ -71,7 +71,7 @@ p{
 } 
 @keyframes myfi {
     0% {background-image: url('https://ak.picdn.net/shutterstock/videos/339694/thumb/1.jpg?ip=x480'); left: 0%; top: 0%;}
-    100% {background-image: url('../src/assets/img/fundo.svg'); left: 100%; top: 100%;}
+    100% {background-image: url('../../angularCiclonext/src/assets/img/fundo.svg'); left: 100%; top: 100%;}
 
 }
 
@@ -101,3 +101,18 @@ p{
 	object-fit: cover;
     
 }
+
+.rotate {
+    animation: rotation 4s infinite;
+    /* animation-iteration-count: 3; */
+    /* animation-timing-function: ease-in-out; */
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
